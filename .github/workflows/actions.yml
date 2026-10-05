@@ -15,10 +15,10 @@ jobs:
       - name: Configurem python
         uses: actions/setup-python@v7
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Preparem l'entorn amb els paquets
-        run: pip install requests
+        run: pip install -r requirements.txt
           
       - name: Correm l'script
         run: python ./euro.py
