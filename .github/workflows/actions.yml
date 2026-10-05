@@ -21,4 +21,4 @@ jobs:
         run: pip install requests
           
       - name: Correm l'script
-        run: python ./euro.py
+        run: python ./euro.py USD
